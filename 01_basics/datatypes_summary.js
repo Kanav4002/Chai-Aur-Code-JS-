@@ -36,9 +36,34 @@ const myFunction = function()
 } // Function or Object
 // myFunction();
 
-console.log(typeof bigNumber);
-console.log(typeof outsideTemp); // object
-console.log(typeof scoreValue); 
-console.log(typeof myFunction); // object function
-console.log(typeof myObj);
-console.log(typeof hero); // object array
+// console.log(typeof bigNumber);
+// console.log(typeof outsideTemp); // object
+// console.log(typeof scoreValue); 
+// console.log(typeof myFunction); // object function
+// console.log(typeof myObj);
+// console.log(typeof hero); // object array
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack (Primitive), Heap (Non-Primitive)
+
+// Stack
+let myYoutubeName = "Kanav"
+
+let anotherName = myYoutubeName
+anotherName = "CodeWithKanav"
+console.log(myYoutubeName);
+console.log(anotherName);
+
+// Heap
+let userOne = {
+  email: "user@google.com",
+  upi: "user@upi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
