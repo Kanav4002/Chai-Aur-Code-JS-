@@ -42,4 +42,5 @@ console.log("C ", myArr);
 console.log(myn2);
 
 // slice() : extracts a portion of an array and returns a new array.
+
 // splice() : removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
