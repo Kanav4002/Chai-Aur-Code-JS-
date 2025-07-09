@@ -7,6 +7,13 @@ function sayMyName(){
   console.log("V");
 }
 
+// Function Expression
+// Types of ways to define a function
+
+// 1. Function Declaration
+// 2. Function Expression
+// 3. Arrow Function
+
 // reference is sayMyname, () is execution
 // sayMyName(); 
 
