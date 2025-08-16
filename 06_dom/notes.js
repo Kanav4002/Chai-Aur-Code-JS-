@@ -38,4 +38,18 @@
   document.querySelector('.heading')
   document.querySelector('input[type="password"]')
   document.querySelector('p:first-child')
+
+
+  document.querySelector("ul");
+  const ulist = document.querySelector("ul");
+  ulist.querySelector("li");
+  const list = ulist.querySelector("li");
+  list.style.backgroundColor = "purple"
+  list.style.padding = "20px";
+
+
+  •	NodeList: Array-like object of DOM nodes. Can be live or static, has limited methods (forEach, item), and isn’t a true array.
+	•	Array: Full JavaScript data structure with rich methods (map, filter, reduce, etc.), always static, can store any type of data.
+	•	Key difference: NodeList is mainly for DOM elements with fewer features, while Array is a powerful, general-purpose collection.
+	•	Conversion: Use Array.from() or [...nodelist] to turn a NodeList into an Array.
 */
